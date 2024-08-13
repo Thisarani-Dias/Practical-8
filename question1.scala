@@ -25,7 +25,7 @@ object question1 {
 
   def main(args:Array[String]): Unit = {
 
-    val plaintext = "Hello, World!"
+    val plaintext = "This is functional programming"
     val shift = 3
 
     val encryptedText = cipherfunction(plaintext, shift, encryptfunction)
